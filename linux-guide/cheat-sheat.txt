@@ -1,0 +1,33 @@
+# Moving between folders or move to exact folder
+cd <path|absolute paht|relative path>
+
+# List all files in a specific folder
+ls: list all files in current folder
+ls <path>: list all file inside 'path'
+
+# Create directory
+mkdir
+
+# Remove empty directory
+rmdir
+
+# Remove file
+rm <filname>
+
+rm -rf <filename|foldername> : !caution, be aware when using this!!
+
+# print out content of a file
+cat <path to file>
+
+# create file & edit existed file
+nano <path file name> 
+
+# transfer files between servers or from server to and local vice versa
+scp <path to file at user position> <username>@<hostname|ip address>:<path to target location>
+
+e.g:
+
+we have file a.txt
+we want to transfer this file to folder /home/phatnt at server node1
+
+scp path to a.txt root@node1:/home/phatnt
