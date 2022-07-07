@@ -42,3 +42,15 @@ Copy the value in step 2 and move to `~/.ssh` and paste it in `authorized_keys` 
 > ssh <username>@<ip-address | hostname>
 ```
 
+
+## SSH Tuneling:
+
+When you want to forward port from remote host to local or vice versa, SSH Tuneling will do the job for you.
+
+```
+> ssh -N -L <local ipadd | local hostname>:<local port>:<remote ipadd | remote hostname>:<remote port> <remote username>:<remote ipadd | remote hostname> 
+
+# e.g:
+# ssh -N -L localhost:8088:localhost:8088 root@node1 
+```
+
