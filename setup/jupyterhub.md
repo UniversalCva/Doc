@@ -22,4 +22,4 @@ As root user, execute the following cmd
 > sh run.sh
 ```
 
-Jupyterhub server will listen at port 8000
+Jupyterhub server will listen at port `8000`
