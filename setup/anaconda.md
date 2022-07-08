@@ -22,7 +22,7 @@ Execute the distribution file and follow its instruction. During the installatio
 
 After this step, anaconda3 is sucessfully installed
 
-** Step 3**:
+**Step 3**:
 
 Setup Anaconda3 environment variable for your OS users. 
 
