@@ -31,3 +31,11 @@ we have file a.txt
 we want to transfer this file to folder /home/phatnt at server node1
 
 scp path to a.txt root@node1:/home/phatnt
+
+
+#-----------------------------------------
+
+# search keyword in a file, ouputs of cmds
+grep <keyword> <filename>
+
+<cmd> .. | grep <keyword>
